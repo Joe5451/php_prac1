@@ -1,0 +1,620 @@
+/* background-color */
+/* color */
+/* margin */
+/* padding */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* margin-top */
+.mt-xl {
+  margin-top: 70px;
+}
+
+.mt-lg {
+  margin-top: 50px;
+}
+
+.mt-md {
+  margin-top: 30px;
+}
+
+.mt-sm {
+  margin-top: 15px;
+}
+
+.mt-xs {
+  margin-top: 10px;
+}
+
+/* margin-bottom */
+.mb-xl {
+  margin-bottom: 70px;
+}
+
+.mb-lg {
+  margin-bottom: 50px;
+}
+
+.mb-md {
+  margin-bottom: 30px;
+}
+
+.mb-sm {
+  margin-bottom: 15px;
+}
+
+.mb-xs {
+  margin-bottom: 10px;
+}
+
+/* margin-left */
+.ml-xl {
+  margin-left: 70px;
+}
+
+.ml-lg {
+  margin-left: 50px;
+}
+
+.ml-md {
+  margin-left: 30px;
+}
+
+.ml-sm {
+  margin-left: 15px;
+}
+
+.ml-xs {
+  margin-left: 10px;
+}
+
+/* margin-right */
+.mr-xl {
+  margin-right: 70px;
+}
+
+.mr-lg {
+  margin-right: 50px;
+}
+
+.mr-md {
+  margin-right: 30px;
+}
+
+.mr-sm {
+  margin-right: 15px;
+}
+
+.mr-xs {
+  margin-right: 10px;
+}
+
+/* margin horizontal */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-xl {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.mx-lg {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.mx-md {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.mx-sm {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mx-xs {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* margin vertical */
+.my-xl {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.my-lg {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.my-md {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.my-sm {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-xs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* padding-top */
+.pt-xl {
+  padding-top: 70px;
+}
+
+.pt-lg {
+  padding-top: 50px;
+}
+
+.pt-md {
+  padding-top: 30px;
+}
+
+.pt-sm {
+  padding-top: 15px;
+}
+
+.pt-xs {
+  padding-top: 10px;
+}
+
+/* padding-bottom */
+.pb-xl {
+  padding-bottom: 70px;
+}
+
+.pb-lg {
+  padding-bottom: 50px;
+}
+
+.pb-md {
+  padding-bottom: 30px;
+}
+
+.pb-sm {
+  padding-bottom: 15px;
+}
+
+.pb-xs {
+  padding-bottom: 10px;
+}
+
+/* padding-left */
+.pl-xl {
+  padding-left: 70px;
+}
+
+.pl-lg {
+  padding-left: 50px;
+}
+
+.pl-md {
+  padding-left: 30px;
+}
+
+.pl-sm {
+  padding-left: 15px;
+}
+
+.pl-xs {
+  padding-left: 10px;
+}
+
+/* padding-right */
+.pr-xl {
+  padding-right: 70px;
+}
+
+.pr-lg {
+  padding-right: 50px;
+}
+
+.pr-md {
+  padding-right: 30px;
+}
+
+.pr-sm {
+  padding-right: 15px;
+}
+
+.pr-xs {
+  padding-right: 10px;
+}
+
+/* padding horizontal */
+.px-xl {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.px-lg {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-md {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-sm {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.px-xs {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* padding vertical */
+.py-xl {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.py-lg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-md {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-sm {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.py-xs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* display block */
+.d-block {
+  display: block;
+}
+
+/* display inline */
+.d-inilne {
+  display: inline;
+}
+
+/* display inline-block */
+.d-inline-block {
+  display: inline-block;
+}
+
+/* display none */
+.d-none {
+  display: none;
+}
+
+/* display flex */
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+/* position static */
+.position-static {
+  position: static;
+}
+
+/* position absolute */
+.position-absolute {
+  position: absolute;
+}
+
+/* position relative */
+.position-relative {
+  position: relative;
+}
+
+/* position fixed */
+.position-fixed {
+  position: fixed;
+}
+
+/* position sticky */
+.position-sticky {
+  position: sticky;
+}
+
+/* col */
+.col-md-1 {
+  width: 8.33%;
+}
+@media (max-width: 768px) {
+  .col-md-1 {
+    width: 100%;
+  }
+}
+
+.col-md-2 {
+  width: 16.66%;
+}
+@media (max-width: 768px) {
+  .col-md-2 {
+    width: 100%;
+  }
+}
+
+.col-md-3 {
+  width: 25%;
+}
+@media (max-width: 768px) {
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
+.col-md-4 {
+  width: 33.33%;
+}
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
+.col-md-5 {
+  width: 41.66%;
+}
+@media (max-width: 768px) {
+  .col-md-5 {
+    width: 100%;
+  }
+}
+
+.col-md-6 {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+.col-md-7 {
+  width: 58.33%;
+}
+@media (max-width: 768px) {
+  .col-md-7 {
+    width: 100%;
+  }
+}
+
+.col-md-8 {
+  width: 66.66%;
+}
+@media (max-width: 768px) {
+  .col-md-8 {
+    width: 100%;
+  }
+}
+
+.col-md-9 {
+  width: 75%;
+}
+@media (max-width: 768px) {
+  .col-md-9 {
+    width: 100%;
+  }
+}
+
+.col-md-10 {
+  width: 83.33%;
+}
+@media (max-width: 768px) {
+  .col-md-10 {
+    width: 100%;
+  }
+}
+
+.col-md-11 {
+  width: 91.66%;
+}
+@media (max-width: 768px) {
+  .col-md-11 {
+    width: 100%;
+  }
+}
+
+.col-md-12 {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo {
+  color: #454545;
+}
+.navbar .logo:hover {
+  color: #ee6588;
+}
+.navbar .menu-btn {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .navbar .menu-btn {
+    display: block;
+  }
+}
+.navbar .menu-btn i {
+  color: #bbb;
+  cursor: pointer;
+}
+.navbar .menu-btn i:hover {
+  color: #ee6588;
+}
+.navbar #menu-toggle {
+  display: none;
+}
+.navbar #menu-toggle:checked ~ ul {
+  transform: translateX(0);
+}
+.navbar ul {
+  display: flex;
+  transition: all 0.5s;
+}
+.navbar ul li a {
+  color: #bbb;
+  display: inline-block;
+  padding: 0 12px;
+}
+.navbar ul li a:hover {
+  color: #ee6588;
+}
+@media only screen and (max-width: 768px) {
+  .navbar ul {
+    transform: translateX(100%);
+    position: fixed;
+    top: 57px;
+    right: 0;
+    height: 100%;
+    flex-direction: column;
+    background: linear-gradient(90deg, #ee6588, #f69560);
+  }
+  .navbar ul li a {
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 24px;
+  }
+  .navbar ul li a:hover {
+    color: #bbb;
+  }
+}
+
+body {
+  background: #888;
+}
+
+/*# sourceMappingURL=all.css.map */
