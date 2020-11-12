@@ -2,6 +2,38 @@
     max-width: 1200px;
 }
 
+/* background linear gradient */
+.bg-gradient {
+    background: linear-gradient(90deg, rgba(238, 101, 136), rgba(246, 149, 96));
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* background color */
+.bg-light {
+    background: $bg-light;
+}
+
+/* text color*/
+.text-primary {
+    color: $color-primary;
+}
+
+.text-light {
+    color: $color-light;
+}
+
+.text-muted {
+    color: $color-muted;
+}
+
+/* width */
+.w-50 {
+    width: 50%;
+}
+
 /* margin-top */
 .mt-xl {
     margin-top: $m-xl;
