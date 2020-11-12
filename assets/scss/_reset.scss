@@ -52,6 +52,7 @@ table {
 }
 html {
 	min-width: 320px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a {
 	text-decoration: none;
@@ -66,4 +67,7 @@ h2 {
 }
 p {
 	line-height: 1.65;
+}
+input {
+	outline: none;
 }
