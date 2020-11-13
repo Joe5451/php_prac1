@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php practice</title>
+    <link rel="stylesheet" href="./assets/stylesheets/all.css">
+    <script src="https://kit.fontawesome.com/b22ce6914a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar">
+    <a class="logo" href="#">Lorem ipsum dolor</a>
+    <label class="menu-btn" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="menu-toggle">
+    <ul>
+        <li>
+            <a href="#section1">section1</a>
+        </li>
+        <li>
+            <a href="#section2">section2</a>
+        </li>
+        <li>
+            <a href="#section3">section3</a>
+        </li>
+        <li>
+            <a href="#section4">section4</a>
+        </li>
+        <li>
+            <a href="#section5">section5</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- banner -->
+<div class="banner">
+    <div class="txt text-center">
+        <h1 class="mb-xs text-light">Lorem ipsum dolor</h1>
+        <p class="mb-md text-muted">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        <a href="#" class="btn mb-lg">Get Started</a>
+    </div>
+</div>
+
+<section id="section1" class="section bg-light text-center">
+    <h2 class="mb-sm text-primary">Lorem ipsum dolor</h2>
+    <p class="mb-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta veritatis beatae officiis aut!<br>
+     Laborum natus minima inventore quidem vero.</p>
+    <ul class="circle-icon-container">
+        <li class="item">
+            <span><i class="fas fa-smile-wink"></i></span>
+            <h3>Lorem</h3>
+        </li>
+        <li class="item">
+            <span><i class="fas fa-laptop"></i></span>
+            <h3>Lorem</h3>
+        </li>
+        <li class="item">
+            <span><i class="fas fa-mug-hot"></i></span>
+            <h3>Lorem</h3>
+        </li>
+        <li class="item">
+            <span><i class="fas fa-cubes"></i></span>
+            <h3>Lorem</h3>
+        </li>
+    </ul>
+</section>
+
+<div id="section2" class="d-flex flex-wrap">
+    <div class="w-50 section bg-gradient-primary">
+        <h2 class="mb-xs text-light">Lorem ipsum dolor</h2>
+        <p class="mb-md text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nulla necessitatibus repudiandae ipsum id aspernatur.</p>
+        <a href="#" class="btn mb-lg">More</a>
+    </div>
+    <div class="w-50 img-container">
+        <img src="https://picsum.photos/640/480?random=2" alt="pic">
+    </div>
+</div>
+
+<section id="section3" class="section bg-light text-center">
+    <h2 class="mb-sm text-primary">Lorem ipsum dolor</h2>
+    <p class="mb-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta veritatis beatae officiis aut!<br>
+     Laborum natus minima inventore quidem vero.</p>
+     <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <a href="#"><img src="https://picsum.photos/576/310?random=3" alt="pic"></a>
+                    <div class="content">Slide 1</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <a href="#"><img src="https://picsum.photos/576/310?random=4" alt="pic"></a>
+                    <div class="content">Slide 2</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <a href="#"><img src="https://picsum.photos/576/310?random=5" alt="pic"></a>
+                    <div class="content">Slide 3</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <a href="#"><img src="https://picsum.photos/576/310?random=6" alt="pic"></a>
+                    <div class="content">Slide 4</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <a href="#"><img src="https://picsum.photos/576/310?random=7" alt="pic"></a>
+                    <div class="content">Slide 5</div>
+                </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section id="section4" class="section bg-gradient-secondary text-center">
+    <h2 class="mb-sm text-light">Lorem ipsum dolor</h2>
+    <p class="mb-lg text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta!</p>
+    <form>
+        <div class="signup-bar">
+            <input type="email" name="email" autocomplete="off" placeholder="Your Email">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</section>
+
+<section id="section5" class="section bg-light text-center">
+    <h2 class="mb-sm text-primary">Lorem ipsum dolor</h2>
+    <p class="mb-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <ul class="touch mb-lg">
+        <li>
+            <span><i class="far fa-envelope"></i></span>
+            <p>user@email.com</p>
+        </li>
+        <li>
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <p>Lorem, ipsum dolor sit amet<br> consectetur adipisicing.</p>
+        </li>
+        <li>
+            <span><i class="fas fa-mobile-alt"></i></span>
+            <p>0000-000-000</p>
+        </li>
+    </ul>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul class="links">
+        <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </li>
+    </ul>
+</footer>
+
+<script>
+const submit = document.querySelector('.signup-bar input[type="submit"]');
+submit.addEventListener('click', (e) => { e.preventDefault(); });
+
+var mySwiper = new Swiper('.swiper-container', {
+    speed: 700,
+    slidesPerView: 1,
+    centeredSlides: true,
+    spaceBetween: 15,
+    breakpoints: {
+        // when window width is >= 480px
+        640: {
+            slidesPerView: 'auto',
+            spaceBetween: 15,
+        },
+        // when window width is >= 680px
+        768: {
+            slidesPerView: 'auto',
+            spaceBetween: 32,
+        }
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+})
+</script>
+</body>
+</html>
