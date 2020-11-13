@@ -816,6 +816,48 @@ input {
   }
 }
 
+/* swiper */
+.swiper-container {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 350px) {
+  .swiper-container {
+    height: 265px;
+  }
+}
+.swiper-container .swiper-slide {
+  width: 400px;
+  opacity: 0.25;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.swiper-container .swiper-slide-active {
+  opacity: 1;
+}
+.swiper-container .swiper-pagination-bullet-active {
+  background: #ee6588;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card a {
+  width: 100%;
+}
+.card img {
+  width: 100%;
+}
+.card .content {
+  padding: 20px;
+}
+
 /* footer */
 .footer {
   display: flex;

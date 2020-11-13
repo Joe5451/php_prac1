@@ -6,6 +6,11 @@
     <title>php practice</title>
     <link rel="stylesheet" href="./assets/stylesheets/all.css">
     <script src="https://kit.fontawesome.com/b22ce6914a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
 <?php include('./assets/inc/navbar.php') ?>
@@ -50,6 +55,7 @@
     <h2 class="mb-sm text-primary">Lorem ipsum dolor</h2>
     <p class="mb-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta veritatis beatae officiis aut!<br>
      Laborum natus minima inventore quidem vero.</p>
+     <?php include('./assets/inc/swiper.php') ?>
 </section>
 
 <section id="section4" class="section bg-gradient-secondary text-center">
